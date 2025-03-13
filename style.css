@@ -37,6 +37,7 @@ h3 {
 
 .hero {
   min-height: 100vh;
+  padding-top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +115,7 @@ h3 {
 
 @media screen and (max-width: 978px) {
   .hero {
-    padding-top: 30px;
+    padding-top: 0;
   }
 
   .hero__container {
