@@ -35,6 +35,10 @@ h3 {
   color: gray;
 }
 
+/* .logo:hover {
+  text-shadow: 4px 4px 9px rgba(66, 68, 90, 1);
+} */
+
 .hero {
   min-height: 100vh;
   padding-top: 0;
@@ -90,10 +94,13 @@ h3 {
 
   font-size: 30px;
   color: #000;
+  transition: transform 0.3s ease-in-out;
+  ;
 }
 
 .hero__link:hover {
   color: #4facfe;
+  transform: scale(1.4);
 }
 
 
